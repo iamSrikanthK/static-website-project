@@ -43,7 +43,7 @@ static-website-project/
 ├── index.html
 ├── style.css
 ├── README.md
-└── Screenshot (31).png
+└── Screenshot (36).png
 
 Author 
 Srikanth K
