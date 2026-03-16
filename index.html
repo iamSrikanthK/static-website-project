@@ -3,71 +3,115 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Srikanth Cloud Hosting Project</title>
+  <title>Srikanth | Cloud Computing Static Website</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <header class="hero">
-    <div class="container">
-      <h1>CloudNova Solutions</h1>
-      <p>A static website developed and deployed as part of my Cloud Computing Internship Project.</p>
-      <a href="#services" class="btn">Explore Services</a>
-    </div>
-  </header>
-
   <nav class="navbar">
-    <div class="container nav-links">
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#contact">Contact</a>
+    <div class="container nav-container">
+      <div class="logo">Srikanth Cloud Project</div>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#features">Features</a>
+        <a href="#tech">Tech Stack</a>
+        <a href="#contact">Contact</a>
+      </div>
     </div>
   </nav>
 
+  <header id="home" class="hero">
+    <div class="container hero-content">
+      <h1>Professional Static Website Hosting Project</h1>
+      <p>
+        A modern and responsive static website developed as part of a Cloud Computing Internship project
+        and deployed online using GitHub Pages.
+      </p>
+      <div class="hero-buttons">
+        <a href="#services" class="btn primary-btn">Explore Services</a>
+        <a href="#contact" class="btn secondary-btn">Contact Us</a>
+      </div>
+    </div>
+  </header>
+
   <section id="about" class="section">
     <div class="container">
-      <h2>About Us</h2>
-      <p>
-  This static website was created by Srikanth as part of a cloud computing internship project.
-  The project demonstrates how static web pages can be designed using HTML and CSS and hosted on a cloud platform for high availability, scalability, and low-cost deployment.
- </p>
+      <h2>About the Project</h2>
+      <p class="section-text">
+        This project demonstrates the design and deployment of a static website using HTML and CSS.
+        It is hosted online to show how lightweight websites can be delivered efficiently using cloud-based hosting platforms.
+        The site is fully responsive, cleanly designed, and suitable for informational or portfolio-style applications.
+      </p>
     </div>
   </section>
 
-  <section id="services" class="section light">
+  <section id="services" class="section light-section">
     <div class="container">
-      <h2>Our Services</h2>
+      <h2>Services</h2>
       <div class="cards">
         <div class="card">
-          <h3>Cloud Hosting</h3>
-          <p>Fast and secure website hosting solutions for all users.</p>
+          <h3>Static Web Hosting</h3>
+          <p>Deploy secure and fast-loading static websites for personal, educational, and business use.</p>
         </div>
         <div class="card">
-          <h3>Web Design</h3>
-          <p>Responsive and modern website designs for business and portfolio use.</p>
+          <h3>Responsive Design</h3>
+          <p>Create websites that adapt smoothly across desktop, tablet, and mobile devices.</p>
         </div>
         <div class="card">
-          <h3>Portfolio Sites</h3>
-          <p>Professional personal websites to showcase projects and skills.</p>
+          <h3>Cloud Deployment</h3>
+          <p>Host websites online using platforms like GitHub Pages and other cloud-based solutions.</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="section">
+    <div class="container">
+      <h2>Project Features</h2>
+      <div class="feature-grid">
+        <div class="feature-box">Clean and modern user interface</div>
+        <div class="feature-box">Responsive layout design</div>
+        <div class="feature-box">Simple navigation menu</div>
+        <div class="feature-box">Cloud-hosted public deployment</div>
+        <div class="feature-box">Fast loading static pages</div>
+        <div class="feature-box">Easy maintenance and updates</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tech" class="section light-section">
+    <div class="container">
+      <h2>Technologies Used</h2>
+      <div class="tech-stack">
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>VS Code</span>
+        <span>GitHub</span>
+        <span>GitHub Pages</span>
       </div>
     </div>
   </section>
 
   <section id="contact" class="section">
     <div class="container">
-      <h2>Contact Us</h2>
+      <h2>Contact</h2>
+      <p class="section-text">Feel free to connect regarding web development and cloud-based projects.</p>
       <form class="contact-form">
-        <input type="text" placeholder="Your Name" />
-        <input type="email" placeholder="Your Email" />
-        <textarea placeholder="Your Message"></textarea>
-        <button type="submit" class="btn">Send Message</button>
+        <input type="text" placeholder="Enter your name" />
+        <input type="email" placeholder="Enter your email" />
+        <textarea placeholder="Enter your message"></textarea>
+        <button type="submit" class="btn primary-btn">Send Message</button>
       </form>
     </div>
   </section>
 
   <footer>
-    <p>© 2026 Srikanth K | Cloud Computing Static Website Project</p>
+    <div class="container footer-content">
+      <p>© 2026 Srikanth K | Cloud Computing Internship Project</p>
+      <p>Hosted using GitHub Pages</p>
+    </div>
   </footer>
 
 </body>
