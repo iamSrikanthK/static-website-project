@@ -4,7 +4,11 @@
 This project is a responsive static website developed using HTML and CSS as part of a Cloud Computing Internship project. It demonstrates how static web pages can be designed, hosted, and deployed online using GitHub Pages.
 
 ## Project Preview
+![Project Preview](Screenshot%20(36).png)
 ![Project Preview](Screenshot%20(31).png)
+![Project Preview](Screenshot%20(32).png)
+![Project Preview](Screenshot%20(33).png)!
+![Project Preview](Screenshot%20(35).png)
 
 ## Live Demo
 [Visit Live Website](https://iamsrikanthk.github.io/static-website-project/)
