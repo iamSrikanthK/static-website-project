@@ -44,3 +44,6 @@ static-website-project/
 ├── style.css
 ├── README.md
 └── Screenshot (31).png
+
+Author 
+Srikanth K
